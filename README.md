@@ -8,9 +8,9 @@ The workspace presents keyboard access, focus visibility and contrast checks alo
 The current checks are an interface foundation, not a formal compliance result. They do not replace manual review, assistive technology testing or evaluation by people with disabilities. The roadmap adds pattern documentation, test scenarios, audit evidence, exports, PWA support and team review workflows.
 
 ## Run locally
-Use Node.js 20 or newer. The local .npmrc is ignored by Git and points to the configured Nexus mirror.
+Use Node.js 20 or newer. The project-local `.npmrc` is ignored by Git because registry configuration is machine-specific. Use `npm ci`; npmjs is an approved fallback if a configured mirror is missing a dependency.
 
-    npm install
+    npm ci
     npm run dev
 
 Run npm test, npm run typecheck and npm run build before a release. Keep examples keyboard operable, use semantic labels, preserve zoom and avoid color-only status meaning.

@@ -3,9 +3,12 @@
 Review prior code and Git diff, inspect the backlog and debug defects. Add/update tests for changed interaction behavior, implement today's ticket, run tests/typecheck/build, update docs and backlog, and leave tomorrow prepared. Record unavailable checks with reason; continue static review. Add findings with severity and evidence.
 
 ## Foundation status
-Day 00 MUI-based audit workspace, interactive theme/contrast/text-scale samples, PWA scaffold and smoke test are present. Dependencies are not installed; no build/test validation has run. Nexus .npmrc is local and ignored.
+Day 00 MUI-based audit workspace, interactive theme/contrast/text-scale samples, PWA scaffold and smoke test are present. Dependencies and lockfile are installed; smoke test (1/1), typecheck and production build passed. This Vite template has no standalone lint script. Nexus .npmrc is local and ignored.
 
 ## Daily tickets
+### Day 00 verification
+Nexus returned 404 for packages used by this project. Following the user's approval, dependencies were installed with npmjs fallback; the ignored local .npmrc keeps Nexus as default and contains only required scope overrides. Day 01 has not started.
+
 | Day | Deliverable |
 |---|---|
 | 01 | Define audit record, component status and evidence schemas. |
