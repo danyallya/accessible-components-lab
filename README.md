@@ -24,3 +24,7 @@ Treat automated checks as evidence for investigation, not a pass certificate. Re
 ## Delivery and review
 
 Inclusive Interface Lab requires scenario/environment evidence for keyboard and assistive-technology behavior, clear unresolved findings and explicit limits on any conformance claim. Follow [DELIVERY-POLICY.md](DELIVERY-POLICY.md) from Day 02 for sequential execution, scope-driven commits and this repository's separate branch/PR with GitHub panel review and merge.
+
+## Contributions and examples
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for reproducible reports, genuine collaboration and product examples such as a component-specific accessible example with limitations. Contributions follow the product backlog and reviewed PR workflow.
