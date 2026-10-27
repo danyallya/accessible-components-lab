@@ -11,7 +11,7 @@ Nexus returned 404 for packages used by this project. Following the user's appro
 
 | Day | Deliverable |
 |---|---|
-| 01 | Define audit record, component status and evidence schemas. |
+| 01 | **Done** — define typed audit/component/evidence schemas and validation; label demo statuses as unverified and expose evidence limitations. |
 | 02 | Add keyboard navigation checklist with focus-order notes. |
 | 03 | Add contrast calculator with transparent WCAG ratio inputs. |
 | 04 | Add heading, landmark and accessible-name inspection guide. |
@@ -43,3 +43,6 @@ Nexus returned 404 for packages used by this project. Following the user's appro
 | 30 | Release-candidate review, all checks, known limits and release notes. |
 
 Mark each day Done, In progress or Blocked. Include evidence and prepare the next day's work.
+
+- Day 01: Done. Audit records now require scope/limitations, recorded sessions require evidence, and the demo states explicitly that no manual testing or conformance result is claimed; next is Day 02, keyboard navigation checklist and focus-order notes.
+- Review carry-over for Day 02: keyboard, screen-reader and zoom evidence entries are supported by the schema but are not yet capturable through an audit workflow.

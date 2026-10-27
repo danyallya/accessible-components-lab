@@ -17,3 +17,6 @@ Run npm test, npm run typecheck and npm run build before a release. Keep example
 
 ## Responsible use
 Treat automated checks as evidence for investigation, not a pass certificate. Record the browser, assistive technology and tested flow for each manual audit. Include diverse users in product review, and do not store sensitive audit notes without a clear retention policy.
+
+### Audit record and evidence contract
+`src/domain/audit.ts` defines audit lifecycle, component review status, evidence method/outcome, and validation issue types. Each evidence record identifies the scenario, environment, outcome, notes and optional timestamp; a recorded audit requires evidence and must retain its limitations. The included audit is explicitly fictional, remains a draft with no evidence, and makes no claim of WCAG or other conformance.
