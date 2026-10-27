@@ -46,3 +46,7 @@ Mark each day Done, In progress or Blocked. Include evidence and prepare the nex
 
 - Day 01: Done. Audit records now require scope/limitations, recorded sessions require evidence, and the demo states explicitly that no manual testing or conformance result is claimed; next is Day 02, keyboard navigation checklist and focus-order notes.
 - Review carry-over for Day 02: keyboard, screen-reader and zoom evidence entries are supported by the schema but are not yet capturable through an audit workflow.
+
+## Process change effective Day 02 — 2026-10-27
+
+Apply [DELIVERY-POLICY.md](DELIVERY-POLICY.md) to every remaining ticket: finish Inclusive Interface Lab before the next repository, use meaningful scope-driven commits and deliver through its own reviewed PR. A blocked external gate needs a concrete record and next action. This adds delivery gates without moving Day 02–30 product work or changing completed history.

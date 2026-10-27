@@ -17,3 +17,10 @@
 - Documentation: README defines the evidence model and limitations; BACKLOG marks Day 01 done and prepares Day 02 keyboard navigation evidence capture.
 - Git: implementation commit `17d549a` (`feat: model accessibility audit evidence`) is pushed to `day-01/audit-evidence-model` and fast-forwarded to `main`. This daily-log entry is included in the final synchronization of both branches. No `.npmrc`, environment files, credentials, or generated build output are tracked.
 - Next: Day 02 — add a keyboard navigation checklist with focus-order notes.
+
+## Review workflow maintenance — 2026-10-27
+
+- The user requested careful sequential project execution, commit content/counts suited to each product and an independent branch/PR per repository with panel review and merge.
+- Inclusive Interface Lab requires scenario/environment evidence for keyboard and assistive-technology behavior, clear unresolved findings and explicit limits on any conformance claim. Added a standalone delivery policy and entry points in AGENTS, README and BACKLOG.
+- Documentation-only maintenance on `docs/inclusive-audit-evidence`; Markdown diff reviewed and `git diff --check` used. No application tests/build rerun for this process change. Next product work: Day 02 — keyboard navigation checklist with focus-order notes.
+- This is the pre-merge log state. The portfolio workspace DELIVERY-RECEIPTS.md records the actual PR URL, checked head, panel gates, merge SHA and sync afterward; reconcile it here in the next authorized update.
