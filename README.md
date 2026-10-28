@@ -28,3 +28,7 @@ Inclusive Interface Lab requires scenario/environment evidence for keyboard and 
 ## Contributions and examples
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for reproducible reports, genuine collaboration and product examples such as a component-specific accessible example with limitations. Contributions follow the product backlog and reviewed PR workflow.
+
+## Keyboard checklist and focus-order notes
+
+The session-only checklist covers forward/reverse Tab order, visible focus, native control activation and leaving the sample without a trap. Every outcome defaults to Not run. Recording requires the browser/OS/assistive-technology environment and observed focus-order notes or a not-run reason for every step, using the existing evidence validator. Editing the draft invalidates its recorded snapshot. Counts distinguish observations, issues and untested steps; they never mark a component conformant or alter the original fictional audit. No notes are saved/uploaded. Actual browser/AT/zoom verification remains pending while browser access is disabled; synthetic DOM tests establish form behavior only.

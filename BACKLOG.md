@@ -12,7 +12,7 @@ Nexus returned 404 for packages used by this project. Following the user's appro
 | Day | Deliverable |
 |---|---|
 | 01 | **Done** — define typed audit/component/evidence schemas and validation; label demo statuses as unverified and expose evidence limitations. |
-| 02 | Add keyboard navigation checklist with focus-order notes. |
+| 02 | Implemented, delivery blocked — keyboard checklist, explicit outcomes and focus-order evidence notes; browser/PR panel gates pending. |
 | 03 | Add contrast calculator with transparent WCAG ratio inputs. |
 | 04 | Add heading, landmark and accessible-name inspection guide. |
 | 05 | Add form error, status and help-text patterns. |

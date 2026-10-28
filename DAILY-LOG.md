@@ -32,3 +32,11 @@
 - Documentation-only scope on docs/inclusive-community-evidence; reviewed Markdown and git diff --check. App tests/build are not rerun because runtime behavior is unchanged.
 - External blocker: local browser use is disabled in Work settings. PR creation, panel review and merge remain pending; resume from this branch when browser access is available, inspect existing PRs first, target main and follow all gates.
 - Publication is pre-merge here; the final PR/head/panel/check/merge/sync evidence goes in the workspace DELIVERY-RECEIPTS.md after completion. Next: Day 02 — keyboard navigation checklist with focus-order notes. Wait for the user's day trigger.
+
+## Day 02 — keyboard observations — 2026-10-28
+
+- Reconciled policy/contribution PRs #1/#2 at origin/main 384c7c0. Reviewed the previous evidence model and unverified sample states. Added a session checklist for Tab/reverse order, focus visibility, activation and leaving the sample, with explicit environment and per-step focus notes.
+- Defaults are Not run. Existing evidence validation prevents empty records; outcomes remain observed/issue-found/not-run, not a compliance pass. Editing notes/outcomes/environment invalidates the recorded snapshot and clears its message. The historical fictional audit stays separate and unverified.
+- Full tests passed (3 files, 6 tests); focused checklist rerun after the message-reset correction passed (2 tests). npm run build passed including typecheck/PWA; git diff --check passed. No lint script. All changed files read locally; no real audit notes, private config or output staged.
+- External blocker: Work browser disabled. No actual keyboard/AT/zoom or responsive/theme review claimed. PR creation, exact-head panel file/check/conversation review, merge and main sync remain pending on day-02/keyboard-review-notes. Useful evidence consists of synthetic form/record invalidation cases; no badge or CI claim.
+- Next: finish Day 02 delivery gates, then Day 03 contrast calculator with explicit ratio inputs on its manual trigger.
