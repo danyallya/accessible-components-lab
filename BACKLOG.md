@@ -12,7 +12,7 @@ Nexus returned 404 for packages used by this project. Following the user's appro
 | Day | Deliverable |
 |---|---|
 | 01 | **Done** — define typed audit/component/evidence schemas and validation; label demo statuses as unverified and expose evidence limitations. |
-| 02 | Implemented, delivery blocked — keyboard checklist, explicit outcomes and focus-order evidence notes; browser/PR panel gates pending. |
+| 02 | Implemented — keyboard checklist records session-only outcomes and focus notes, identifies invalid fields, and directs focus to the first error. Actual sample keyboard/assistive-technology/zoom checks remain unclaimed. |
 | 03 | Add contrast calculator with transparent WCAG ratio inputs. |
 | 04 | Add heading, landmark and accessible-name inspection guide. |
 | 05 | Add form error, status and help-text patterns. |
@@ -45,7 +45,7 @@ Nexus returned 404 for packages used by this project. Following the user's appro
 Mark each day Done, In progress or Blocked. Include evidence and prepare the next day's work.
 
 - Day 01: Done. Audit records now require scope/limitations, recorded sessions require evidence, and the demo states explicitly that no manual testing or conformance result is claimed; next is Day 02, keyboard navigation checklist and focus-order notes.
-- Review carry-over for Day 02: keyboard, screen-reader and zoom evidence entries are supported by the schema but are not yet capturable through an audit workflow.
+- Review carry-over after Day 02: the keyboard checklist captures session notes, but real keyboard/assistive-technology/zoom testing of the sample is still unperformed; revisit with the browser/device matrix on Day 21.
 
 ## Process change effective Day 02 — 2026-10-27
 

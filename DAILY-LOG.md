@@ -40,3 +40,11 @@
 - Full tests passed (3 files, 6 tests); focused checklist rerun after the message-reset correction passed (2 tests). npm run build passed including typecheck/PWA; git diff --check passed. No lint script. All changed files read locally; no real audit notes, private config or output staged.
 - External blocker: Work browser disabled. No actual keyboard/AT/zoom or responsive/theme review claimed. PR creation, exact-head panel file/check/conversation review, merge and main sync remain pending on day-02/keyboard-review-notes. Useful evidence consists of synthetic form/record invalidation cases; no badge or CI claim.
 - Next: finish Day 02 delivery gates, then Day 03 contrast calculator with explicit ratio inputs on its manual trigger.
+
+## Day 02 follow-up — field validation and GitHub review — 2026-10-28
+
+- Reproduced Issue #3 in the running 390px app: a missing note produced only one generic message and did not identify or focus the invalid scenario. Added per-field `aria-invalid`/`aria-describedby` errors, a field-count summary, focus on the first invalid field, and correction behavior that clears only the corrected error. Default outcomes remain Not run; edits still invalidate recorded snapshots.
+- Added regressions for the missing environment, a missing scenario note, focus, associated error text and successful correction. `npm test -- --reporter=dot` passed (3 files, 7 tests); `npm run typecheck` passed; `npm run build` passed with PWA output; `git diff --check` passed. No lint script is configured.
+- Browser verification at 390px reproduced the missing-note error, confirmed focus moved to “Leave the component”, then recorded five Not run observations after correction. This checked the form flow only; no actual keyboard, assistive-technology, zoom or conformance result is claimed.
+- PR #4 carries the fix for Issue #3. The final tested head, GitHub Files changed/Checks/conversation review, panel merge outcome and local main sync are recorded in the portfolio workspace `DELIVERY-RECEIPTS.md`; no second commit is created solely to record the merge receipt.
+- Next: Day 03 — add contrast calculator with explicit ratio inputs when the user triggers it.
