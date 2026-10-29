@@ -50,6 +50,14 @@
 - Delivery: implementation commit `fccb177` is on `day-03/contrast-calculator`, based on `main` at `e47fa99`; the branch was pushed to `origin` with the feature and documentation updates. No Day 03 PR was created. GitHub panel access remained blocked by a Kaspersky Endpoint Security “untrusted certificate” warning encountered during this Day 03 run; it was left untouched, and no certificate bypass was attempted. PR creation, panel file/check/conversation review, merge and `main` sync remain blocked. No CI result is claimed.
 - Next: Day 04 — add a heading, landmark and accessible-name inspection guide after its manual trigger; first resume the blocked Day 03 PR delivery gate.
 
+### Day 03 resumed browser and delivery review — 2026-10-29
+
+- Browser access recovered without bypassing the earlier certificate warning. Reviewed the local app at 390×844 in dark and light themes; the calculator fields, criterion, preview and result fit the mobile column. A desktop view at the default browser width also rendered without page-level horizontal overflow.
+- Browser interaction confirmed invalid `transparent` input receives `aria-invalid` and a linked message, with the stale ratio withheld. Tab from foreground moved to background and showed the existing 3px focus outline. No assistive-technology, zoom, or conformance result is claimed; the sample's real keyboard audit remains unperformed.
+- Re-ran exact-branch checks: `npm test -- --reporter=dot --maxWorkers=1` passed (5 files, 13 tests); `npm run typecheck`, `npm run build` including PWA generation, and `git diff --check` passed.
+- GitHub panel access is available again. The previous panel-blocker note above is historical; the current PR/panel review and merge outcome will be captured in the workspace delivery receipt. No CI result is claimed.
+- Next: finish current Day 03 PR/panel gates; Day 04 remains the next product scope after the user's manual trigger.
+
 ## Day 02 follow-up — field validation and GitHub review — 2026-10-28
 
 - Reproduced Issue #3 in the running 390px app: a missing note produced only one generic message and did not identify or focus the invalid scenario. Added per-field `aria-invalid`/`aria-describedby` errors, a field-count summary, focus on the first invalid field, and correction behavior that clears only the corrected error. Default outcomes remain Not run; edits still invalidate recorded snapshots.

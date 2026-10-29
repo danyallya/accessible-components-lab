@@ -12,8 +12,8 @@ Nexus returned 404 for packages used by this project. Following the user's appro
 | Day | Deliverable |
 |---|---|
 | 01 | **Done** — define typed audit/component/evidence schemas and validation; label demo statuses as unverified and expose evidence limitations. |
-| 02 | Implemented — keyboard checklist records session-only outcomes and focus notes, identifies invalid fields, and directs focus to the first error. Actual sample keyboard/assistive-technology/zoom checks remain unclaimed. |
-| 03 | Done — add contrast calculator for opaque sRGB hex inputs, relative luminance, selectable WCAG 2.2 thresholds and explicit limits; branch PR/panel delivery remains blocked. |
+| 02 | **Done** — keyboard checklist records session-only outcomes and focus notes, identifies invalid fields, and directs focus to the first error. Actual sample keyboard/assistive-technology/zoom checks remain unclaimed. |
+| 03 | Implementation and local review complete — contrast calculator for opaque sRGB hex inputs, relative luminance, selectable WCAG 2.2 thresholds and explicit limits; GitHub PR/panel delivery in progress. |
 | 04 | Add heading, landmark and accessible-name inspection guide. |
 | 05 | Add form error, status and help-text patterns. |
 | 06 | Add dialog and menu keyboard interaction scenarios. |
