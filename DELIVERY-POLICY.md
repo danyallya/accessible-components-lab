@@ -36,7 +36,7 @@ Historical Day 00/01 entries describe their original workflow. This policy super
 
 A dialog focus fix and an audit-evidence model change have different acceptance criteria. Choose commits around those real units and name the affected component or evidence rule.
 
-Next planned scope: Day 02 — keyboard navigation checklist with focus-order notes.
+Next planned scope: Day 04 — heading, landmark and accessible-name inspection guide.
 
 ## Contribution evidence
 
