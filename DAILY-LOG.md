@@ -41,6 +41,15 @@
 - External blocker: Work browser disabled. No actual keyboard/AT/zoom or responsive/theme review claimed. PR creation, exact-head panel file/check/conversation review, merge and main sync remain pending on day-02/keyboard-review-notes. Useful evidence consists of synthetic form/record invalidation cases; no badge or CI claim.
 - Next: finish Day 02 delivery gates, then Day 03 contrast calculator with explicit ratio inputs on its manual trigger.
 
+## Day 03 — color contrast calculator (2026-10-29, Asia/Tehran)
+
+- Startup: reconciled the workspace delivery receipt for Day 02 PR #4 (tested head `fc746a99758f540a27b5b3b568b0c6e2209cc027`, merged at `e47fa9997976d70318fbddd84e9f0ffd892c31aa`); fetched `origin`, confirmed clean `main` at the merge, inspected the Day 02 code/diff and started `day-03/contrast-calculator` from current `origin/main`.
+- Implementation: added an opaque sRGB hex color calculator using WCAG relative luminance and contrast ratio, a selectable AA/AAA text or applicable AA non-text threshold, a live sample, linked validation errors and a clear non-conformance limitation. Inputs remain in page state. README records the algorithm references and limits.
+- Tests/checks: `npm test -- --reporter=dot` passed (5 files, 13 tests); `npm run typecheck` passed; `npm run build` passed, including PWA output; `git diff --check` passed and all staged code plus documentation changes were reviewed. No standalone lint script is configured.
+- Browser review: not completed. The local app server was stopped after the Computer Use tool reported it had been stopped with the physical Escape key. No responsive/theme/keyboard browser result is claimed; local DOM/unit tests only.
+- Delivery: implementation commit `fccb177` is on `day-03/contrast-calculator`, based on `main` at `e47fa99`; the branch was pushed to `origin` with the feature and documentation updates. No Day 03 PR was created. GitHub panel access remained blocked by a Kaspersky Endpoint Security “untrusted certificate” warning encountered during this Day 03 run; it was left untouched, and no certificate bypass was attempted. PR creation, panel file/check/conversation review, merge and `main` sync remain blocked. No CI result is claimed.
+- Next: Day 04 — add a heading, landmark and accessible-name inspection guide after its manual trigger; first resume the blocked Day 03 PR delivery gate.
+
 ## Day 02 follow-up — field validation and GitHub review — 2026-10-28
 
 - Reproduced Issue #3 in the running 390px app: a missing note produced only one generic message and did not identify or focus the invalid scenario. Added per-field `aria-invalid`/`aria-describedby` errors, a field-count summary, focus on the first invalid field, and correction behavior that clears only the corrected error. Default outcomes remain Not run; edits still invalidate recorded snapshots.

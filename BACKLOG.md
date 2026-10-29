@@ -13,7 +13,7 @@ Nexus returned 404 for packages used by this project. Following the user's appro
 |---|---|
 | 01 | **Done** — define typed audit/component/evidence schemas and validation; label demo statuses as unverified and expose evidence limitations. |
 | 02 | Implemented — keyboard checklist records session-only outcomes and focus notes, identifies invalid fields, and directs focus to the first error. Actual sample keyboard/assistive-technology/zoom checks remain unclaimed. |
-| 03 | Add contrast calculator with transparent WCAG ratio inputs. |
+| 03 | Done — add contrast calculator for opaque sRGB hex inputs, relative luminance, selectable WCAG 2.2 thresholds and explicit limits; branch PR/panel delivery remains blocked. |
 | 04 | Add heading, landmark and accessible-name inspection guide. |
 | 05 | Add form error, status and help-text patterns. |
 | 06 | Add dialog and menu keyboard interaction scenarios. |
@@ -53,4 +53,4 @@ Apply [DELIVERY-POLICY.md](DELIVERY-POLICY.md) to every remaining ticket: finish
 
 ## Contribution integration — 2026-10-27
 
-Effective Day 02: apply [CONTRIBUTING.md](CONTRIBUTING.md) inside existing tickets. At already scheduled weekly reviews, assess real feedback such as a component keyboard/focus case naming browser, assistive technology and observed behavior; at documentation/setup tickets, improve a component-specific accessible example with limitations. Day 30 records actual contribution evidence and outstanding external dependencies. No day is renumbered and no quota or badge is a completion criterion. Next scope remains: Day 02 — keyboard navigation checklist with focus-order notes.
+Effective Day 02: apply [CONTRIBUTING.md](CONTRIBUTING.md) inside existing tickets. At already scheduled weekly reviews, assess real feedback such as a component keyboard/focus case naming browser, assistive technology and observed behavior; at documentation/setup tickets, improve a component-specific accessible example with limitations. Day 30 records actual contribution evidence and outstanding external dependencies. No day is renumbered and no quota or badge is a completion criterion. Next scope: Day 04 — heading, landmark and accessible-name inspection guide.
