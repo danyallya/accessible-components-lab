@@ -65,3 +65,17 @@
 - Browser verification at 390px reproduced the missing-note error, confirmed focus moved to “Leave the component”, then recorded five Not run observations after correction. This checked the form flow only; no actual keyboard, assistive-technology, zoom or conformance result is claimed.
 - PR #4 carries the fix for Issue #3. The final tested head, GitHub Files changed/Checks/conversation review, panel merge outcome and local main sync are recorded in the portfolio workspace `DELIVERY-RECEIPTS.md`; no second commit is created solely to record the merge receipt.
 - Next: Day 03 — add contrast calculator with explicit ratio inputs when the user triggers it.
+
+## Delivery receipt reconciliation — 2026-10-31
+
+- Contribution-guidance PR #2 is merged. Its reviewed head was `6e925b199b91b1690fc68f449b6bbd0ca08c3f36`; all Markdown changes were reviewed, Checks had zero configured runs, and no finding or independent approval was recorded. Merge commit: `384c7c083a723e1b1e7c57980e7df287b40481f4`. This resolves the historical local-browser blocker recorded above.
+- Day 03 PR [#5](https://github.com/danyallya/accessible-components-lab/pull/5) targeted `main`; exact reviewed head `cf899976df9371057112044a65930141a505d621`, with all 10 changed files viewed. Checks had zero configured runs; Conversation reported no findings or base conflicts. No independent approval was recorded. The panel merge commit is `fecd2f6ac34b8ace6fa39cc179f9b042c5abbb09`; local `main` was synchronized to that commit. This resolves the historical certificate/browser blocker recorded above; no certificate bypass was used.
+
+## Day 04 — structure inspection guide — 2026-10-31, Asia/Tehran
+
+- Startup: reconciled the contribution and Day 03 delivery receipts, fetched `origin`, confirmed clean `main` at `fecd2f6ac34b8ace6fa39cc179f9b042c5abbb09`, checked that GitHub had no open PRs or issues, reviewed the prior app/checklist/calculator implementation, and created `day-04/structure-inspection-guide` from current `main`.
+- Implementation: added a manual review guide for heading hierarchy, page landmarks and accessible names, plus a settings-form example. Preserved the checklist's untested defaults and its evidence/conformance limits. Added project-specific W3C WAI references in README; the example and guidance cover visible associated form labels, a single main region and distinct names for multiple navigation landmarks.
+- Checks: `npm test -- --reporter=dot --maxWorkers=1` passed (6 files, 15 tests); `npm run typecheck` passed; `npm run build` passed, including Vite/PWA generation; staged and working-tree `git diff --check` passed. No standalone lint script is configured.
+- Browser preview: local app at 1265×718 CSS px displayed the guide in light and dark themes. Text size was increased after inspection. Phone/tablet widths, 200% zoom, keyboard-only behavior and assistive-technology behavior were not tested; no manual audit or conformance result is claimed.
+- Commits: feature source and test commit `b9fde4cf41aef5214744edf0236512c843c21c65`. README and backlog describe the scope; this log records checks and limits. At the time of this entry, the branch had not yet been pushed and PR creation/exact-head GitHub review/merge gates remained pending. No CI result is claimed.
+- Next: finish Day 04's branch push, `main` base confirmation, exact-head Files changed/Checks/Conversation review, and panel merge if all gates permit; then reconcile its merge receipt at the next authorized log update before Day 05 form error, status and help-text patterns.
