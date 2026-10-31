@@ -42,3 +42,22 @@
 .contrast-result p{margin:0;font-size:10px}
 .contrast-limitation{margin-bottom:0}
 @media(max-width:640px){.contrast-calculator{padding:14px}.contrast-grid{grid-template-columns:minmax(0,1fr);gap:12px}.contrast-color-fields{grid-template-columns:minmax(0,1fr)}.contrast-heading h2{font-size:15px}.contrast-result{align-items:flex-start;gap:12px;flex-direction:column}}
+
+.inspection-guide{margin-top:24px;padding:20px;background:var(--panel);border:1px solid var(--line);border-radius:10px;color:var(--ink)}
+.inspection-guide-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.inspection-guide-heading h2{font:600 16px 'Space Grotesk';margin:6px 0 0}
+.inspection-guide-tag{padding:5px 8px;border:1px solid var(--line);border-radius:20px;color:var(--muted);font:8px 'DM Mono';white-space:nowrap}
+.inspection-guide-intro,.inspection-guide-limit{max-width:900px;color:var(--muted);font-size:11px;line-height:1.6}
+.inspection-guide-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:16px}
+.inspection-guide-step{position:relative;min-width:0;padding:15px;border:1px solid var(--line);border-radius:8px;background:var(--bg)}
+.inspection-step-number{font:9px 'DM Mono';letter-spacing:.8px;color:var(--muted)}
+.inspection-guide-step h3,.inspection-guide-example h3{font:600 13px 'Space Grotesk';margin:7px 0}
+.inspection-guide-step ul{margin:0;padding-inline-start:17px;font-size:11px;line-height:1.55}
+.inspection-guide-step li+li{margin-top:7px}
+.inspection-guide-example{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:16px;margin-top:14px;padding:15px;border-radius:8px;background:var(--bg)}
+.inspection-guide-example h3{font-size:12px}
+.inspection-guide-example p{color:var(--muted);font-size:10px;line-height:1.55}
+.inspection-guide-example pre{min-width:0;margin:0;padding:12px;overflow-x:auto;border:1px solid var(--line);border-radius:6px;color:var(--ink);font:10px/1.55 'DM Mono';tab-size:2;white-space:pre}
+.inspection-guide-limit{margin-bottom:0}
+@media(max-width:950px){.inspection-guide-grid{grid-template-columns:1fr}.inspection-guide-example{grid-template-columns:1fr}}
+@media(max-width:640px){.inspection-guide{padding:14px}.inspection-guide-heading h2{font-size:15px}.inspection-guide-example{padding:11px}.inspection-guide-example pre{font-size:9px}}
