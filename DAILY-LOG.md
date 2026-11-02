@@ -79,3 +79,12 @@
 - Browser preview: local app at 1265×718 CSS px displayed the guide in light and dark themes. Text size was increased after inspection. Phone/tablet widths, 200% zoom, keyboard-only behavior and assistive-technology behavior were not tested; no manual audit or conformance result is claimed.
 - Commits: feature source and test commit `b9fde4cf41aef5214744edf0236512c843c21c65`. README and backlog describe the scope; this log records checks and limits. At the time of this entry, the branch had not yet been pushed and PR creation/exact-head GitHub review/merge gates remained pending. No CI result is claimed.
 - Next: finish Day 04's branch push, `main` base confirmation, exact-head Files changed/Checks/Conversation review, and panel merge if all gates permit; then reconcile its merge receipt at the next authorized log update before Day 05 form error, status and help-text patterns.
+
+## Day 05 — form errors, status and help text — 2026-11-02
+
+- Review: fetched `origin/main` at `ca3edb1` after Day 04 PR #6; reviewed the audit model, keyboard checklist, structure guide, styles and previous delivery receipt. Existing sample content does not store or transmit user data.
+- Implementation: added an interactive notification preference example with a visible email label, persistent help text, linked actionable validation feedback, focus on invalid input, and polite text status messages. The example states that values are session-only and is not a real notification service.
+- Tests/checks: `npm test -- --reporter=dot --maxWorkers=1` passed (7 files, 19 tests); `npm run typecheck` passed; `npm run build` passed including Vite/PWA generation; `git diff --check` passed. New tests cover help/status association, invalid-field state and focus, valid session-only submission, and the example's simple email check. No standalone lint script is configured.
+- Contribution evidence: added a reusable component-specific form feedback example with explicit scope and limitations; no real audit evidence, external post, collaboration credit or conformance claim was created.
+- Git: branch `day-05/form-feedback-patterns`; current changes are being reviewed before commit/push. PR and panel review remain pending; no CI or independent approval is claimed.
+- Next: complete PR panel review/merge and synchronize `main`, then proceed to Day 06 dialog and menu keyboard scenarios only after a new user day trigger.
