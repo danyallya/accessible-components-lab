@@ -61,3 +61,37 @@
 .inspection-guide-limit{margin-bottom:0}
 @media(max-width:950px){.inspection-guide-grid{grid-template-columns:1fr}.inspection-guide-example{grid-template-columns:1fr}}
 @media(max-width:640px){.inspection-guide{padding:14px}.inspection-guide-heading h2{font-size:15px}.inspection-guide-example{padding:11px}.inspection-guide-example pre{font-size:9px}}
+
+.form-patterns{margin-top:24px;padding:20px;background:var(--panel);border:1px solid var(--line);border-radius:10px;color:var(--ink)}
+.form-patterns-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.form-patterns-heading h2{font:600 16px 'Space Grotesk';margin:6px 0 0}
+.form-patterns-tag{padding:5px 8px;border:1px solid var(--line);border-radius:20px;color:var(--muted);font:8px 'DM Mono';white-space:nowrap}
+.form-patterns-intro,.form-patterns-limit{max-width:900px;color:var(--muted);font-size:11px;line-height:1.6}
+.form-pattern-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(240px,.85fr);gap:14px;margin-top:16px}
+.form-pattern-card,.form-pattern-anatomy{min-width:0;padding:15px;border:1px solid var(--line);border-radius:8px;background:var(--bg)}
+.form-pattern-card h3,.form-pattern-anatomy h3{font:600 14px 'Space Grotesk';margin:7px 0 14px}
+.form-pattern-card form{display:grid;gap:8px}
+.form-pattern-card .MuiFormControl-root .MuiInputLabel-root,.form-pattern-card .MuiInputBase-input,.form-pattern-card .MuiFormHelperText-root{font-size:9px}
+.form-pattern-card .MuiFormHelperText-root{line-height:1.45}
+.form-pattern-card .MuiFormHelperText-root.Mui-error{color:#b42318}
+.lab-app.dark .form-pattern-card .MuiFormHelperText-root.Mui-error{color:#ffaaa0}
+.form-pattern-help{margin:0;color:var(--muted);font-size:9px;line-height:1.45}
+.form-pattern-card .MuiFormControlLabel-label{font-size:9px}
+.form-pattern-status{display:flex;align-items:flex-start;gap:7px;margin:2px 0;padding:9px;border:1px solid var(--line);border-radius:6px;color:var(--ink);font-size:9px;line-height:1.45;background:var(--panel)}
+.form-pattern-status svg{flex:none;margin-top:1px}
+.form-pattern-status.error{border-color:#b42318}
+.form-pattern-status.error svg{color:#b42318}
+.form-pattern-status.success{border-color:#5d8127}
+.form-pattern-status.success svg{color:#5d8127}
+.lab-app.dark .form-pattern-status.error{border-color:#ff8d80}
+.lab-app.dark .form-pattern-status.error svg{color:#ffaaa0}
+.lab-app.dark .form-pattern-status.success{border-color:#b9de5a}
+.lab-app.dark .form-pattern-status.success svg{color:#d9f86b}
+.form-pattern-card .MuiButton-root{justify-self:start;font-size:9px;padding:7px 11px;color:#1a2013}
+.form-pattern-anatomy ul{display:grid;gap:13px;margin:0;padding-inline-start:18px}
+.form-pattern-anatomy li{display:grid;gap:3px;padding-inline-start:3px;font-size:9px;line-height:1.5}
+.form-pattern-anatomy li::marker{color:#8cad3f}
+.form-pattern-anatomy li span{color:var(--muted)}
+.form-patterns-limit{margin-bottom:0}
+@media(max-width:950px){.form-pattern-grid{grid-template-columns:1fr}}
+@media(max-width:640px){.form-patterns{padding:14px}.form-patterns-heading h2{font-size:15px}.form-patterns-tag{font-size:7px}.form-pattern-card,.form-pattern-anatomy{padding:11px}}
